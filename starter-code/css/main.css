@@ -11,4 +11,122 @@ light blue: #1c5380
 body {
 	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0;
+	padding-top: 5%;
+	padding-right: 8%;
+	padding-left: 5%;
+	background: #fff url("../images/bgtile.png") repeat-x;
+
+}
+
+.title {
+		float: right;
+		width: 60%;
+}
+
+.body {
+		float: right;
+		width: 60%;
+}
+
+.phone-picture {
+		float: left;
+		width: 40%;
+}
+
+.content {
+		overflow: auto;
+}
+
+img {
+		max-width: 100%;
+}
+
+.login-logo {
+		display: inline-block;
+		padding: 0px;
+}
+
+.login {
+		border: 1px solid black;
+		border-radius: 2px;
+		float: right;
+		width: 25%;
+		height: 45px;
+		background-color: #1c5380;
+}
+
+h1 {
+		float: left;
+		width: 60%;
+		margin: 0;
+}
+
+p.login-logo {
+		color: white;
+		margin: 0;
+}
+
+img.login-logo {
+		padding-top: 12px;
+}
+
+.phone-picture {
+		padding: 23px;
+}
+
+.body {
+		padding: 25px;
+}
+
+.main {
+		background: url("../images/frame.png") no-repeat;
+		padding: 40px;
+		width: 450px;
+}
+
+.title {
+		margin-top: 100px;
+}
+
+.body {}
+
+.download-links {
+		display: inline-block;
+}
+
+.apple {display: inline-block;}
+
+.android {
+		display: inline;
+}
+
+li {
+		list-style-type: none;
+		display: inline;
+		padding-left: 8px;
+		text-transform: uppercase;
+		color: #1c5380;
+		font-size: 13px;
+}
+
+ul {
+		text-align: center;
+}
+
+.login {
+		margin-top: 8px;
+}
+
+p {
+		padding-right: 5px;
+}
+
+.title {}
+
+.content {
+		padding-right: 8%;
+}
+
+h2 {
+		color: #06365f;
 }
