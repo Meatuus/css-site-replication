@@ -11,71 +11,19 @@ light blue: #1c5380
 body {
 	font: 200 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
 	margin: 0;
+	width: 900px;
 	padding-top: 5%;
-	padding-right: 8%;
-	padding-left: 5%;
 	background: #fff url("../images/bgtile.png") repeat-x;
-
 }
 
 .title {
 		float: right;
-		width: 60%;
+		margin-top: 100px;
+		width: 450px;
 }
 
 .body {
 		float: right;
-		width: 60%;
-}
-
-.phone-picture {
-		float: left;
-		width: 40%;
-}
-
-.content {
-		overflow: auto;
-}
-
-img {
-		max-width: 100%;
-}
-
-.login-logo {
-		display: inline-block;
-		padding: 0px;
-}
-
-.login {
-		border: 1px solid black;
-		border-radius: 2px;
-		float: right;
-		width: 25%;
-		height: 45px;
-		background-color: #1c5380;
-}
-
-h1 {
-		float: left;
-		width: 60%;
-		margin: 0;
-}
-
-p.login-logo {
-		color: white;
-		margin: 0;
-}
-
-img.login-logo {
-		padding-top: 12px;
-}
-
-.phone-picture {
-		padding: 23px;
-}
-
-.body {
-		padding: 25px;
 }
 
 .main {
@@ -84,17 +32,67 @@ img.login-logo {
 		width: 450px;
 }
 
-.title {
+.phone-picture {
+		padding-left: 80px;
+		margin-top: 100px;
+		width: 400px;
 		margin-top: 100px;
 }
 
-.body {}
+.content {
+		overflow: auto;
+		float: right;
+		width: 485px;
+		display: inline-block;
+}
+
+img {
+		max-width: 100%;
+}
+
+.login {
+	border: 1px solid #06365f;
+	border-radius: 2px;
+	float: right;
+	width: 25%;
+	height: 45px;
+	background-color: #1c5380;
+	margin-top: 8px;
+}
+
+.login-logo {
+		display: inline-block;
+		padding: 0px;
+}
+
+p.login-logo {
+		color: white;
+		float: right
+		margin-top: 10px;
+		margin-right: 14px;
+		font-weight: 900;
+}
+
+img.login-logo {
+		float: left;
+		padding-top: 12px;
+		margin-left: 13px;
+}
+
+h1 {
+		float: left;
+		width: 250px;
+		margin: 0;
+}
 
 .download-links {
 		display: inline-block;
 }
 
-.apple {display: inline-block;}
+.apple {
+	display: inline-block;
+	margin-right: 20px;
+}
 
 .android {
 		display: inline;
@@ -106,27 +104,25 @@ li {
 		padding-left: 8px;
 		text-transform: uppercase;
 		color: #1c5380;
-		font-size: 13px;
+		font-size: 10px;
+		font-weight: 500;
 }
 
 ul {
 		text-align: center;
 }
 
-.login {
-		margin-top: 8px;
-}
-
 p {
 		padding-right: 5px;
 }
 
-.title {}
-
-.content {
-		padding-right: 8%;
-}
-
 h2 {
 		color: #06365f;
+}
+
+footer {
+		clear: both;
+}
+.copyright {
+	color: grey;
 }
